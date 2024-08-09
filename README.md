@@ -7,6 +7,8 @@
 	<h3></h3>
 </div>
 
+# ОБОИ ВЫ МОЖЕТЕ НАЙТИ [ТУТ](https://github.com/axax-loll/wallpapers)
+
  <details> 
   <summary>Что входит</summary>
      
