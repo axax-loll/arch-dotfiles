@@ -9,7 +9,7 @@
 
 <details> 
 	<summary>Что входит</summary>
-	- **Catppuccin**: используется крутая цветовая схема [catppuccin-macchiato](https://github.com/catppuccin)
+	- **Catppuccin**: используется крутая цветовая схема [catppuccin-macchiato](https://github.com/catppuccin) [Wiki](https://end-4.github.io/dots-hyprland-wiki/en/i-i/01setup/)
 	- **Hyprland и swayfx конфиги**: мои конфиги имеют прикольные фичи и функции
 	- **Waybar**: не поверите, имеются [sway](https://github.com/WillPower3309/swayfx) и [hyprland](https://github.com/hyprwm/Hyprland) конфиги для [waybar](https://github.com/Alexays/Waybar)
 </details>
