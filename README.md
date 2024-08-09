@@ -7,8 +7,6 @@
 	<h3></h3>
 </div>
 
-# ОБОИ ВЫ МОЖЕТЕ НАЙТИ [ТУТ](https://github.com/axax-loll/wallpapers)
-
  <details> 
   <summary>Что входит</summary>
      
@@ -72,10 +70,7 @@
   - Вроде всё описал, если че пишите
 </details>
 
-<div align="center">
-	<h2>󰹑  Скриншооотики</h2>
-	<h3></h3>
-</div>
+## ОБОИ ВЫ МОЖЕТЕ НАЙТИ [ТУТ](https://github.com/axax-loll/wallpapers)
 
 ### Пикрил с fastfetch
 ![aye](https://github.com/axax-loll/dots/blob/main/git_img/fetch.png?raw=true)
