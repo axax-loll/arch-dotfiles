@@ -37,3 +37,11 @@
 	- **NO ANIMATIONS??? AGAIN!1!11**: анимаций по прежнему нема, но конфиги проставлены для форка sway -> [swayfx](https://github.com/WillPower3309/swayfx)
 	- **WIP @^@**: доты еще не закончены, буду пополнять, переделывать, заменять что то
 </details>
+
+ <details> 
+  <summary>Notable features</summary>
+     
+  - **Catppuccin**: используется крутая цветовая схема [catppuccin-macchiato](https://github.com/catppuccin)
+  - **Hyprland и swayfx конфиги**: мои конфиги имеют прикольные фичи и функции
+  - **Waybar**: не поверите, имеются [sway](https://github.com/WillPower3309/swayfx) и [hyprland](https://github.com/hyprwm/Hyprland) конфиги для [waybar](https://github.com/Alexays/Waybar)
+</details>
