@@ -76,4 +76,10 @@
 </div>
 
 ### Пикрил с fastfetch
-![aye](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![aye](https://github.com/axax-loll/dots/blob/main/git_img/fetch.png?raw=true)
+
+### Пик с pseudo и закруглениями
+![aye](https://github.com/axax-loll/dots/blob/main/git_img/windoes.png?raw=true)
+
+### Окна без pseudo и без закруглений
+![aye](https://github.com/axax-loll/dots/blob/main/git_img/seven.png?raw=true)
