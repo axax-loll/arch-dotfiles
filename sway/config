@@ -1,0 +1,43 @@
+# МОД
+	include {
+		cat
+		auto
+		binds
+		rules
+	}
+	output * background ~/.config/walls/eva.jpg fill
+
+# КЛАВИАТУРА
+	input * {
+		xkb_layout us,ru
+		xkb_options grp:caps_toggle
+	}
+
+# ВНЕШНИЙ ВИД
+	gaps inner 0
+	gaps outer 0
+	smart_borders on
+	smart_gaps on
+	default_border pixel 2
+	default_floating_border pixel 2
+	
+	#class						BORDER			BACKGROUND	TEXT	INDICATOR	CHILD
+	client.focused           	$mauve     		$base 		$text  	$mauve 		$mauve
+	client.focused_inactive  	$crust     		$mantle 	$text  	$crust 		$crust
+	client.unfocused         	$crust    		$mantle 	$text  	$crust 		$crust
+	client.urgent            	$red    		$base 		$crust 	$overlay0  	$red
+	client.placeholder       	$overlay0 		$base 		$text  	$overlay0  	$overlay0
+
+	corner_radius 10
+	blur enable
+	blur_xray on
+	
+	shadows enable
+	shadows_on_csd enable
+	shadow_color $crust
+	shadow_blur_radius 12
+
+	for_window {
+		[floating] border pixel 2
+		[tiling] border pixel 2
+	}

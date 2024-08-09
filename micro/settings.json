@@ -1,0 +1,11 @@
+{
+    "autosu": true,
+    "colorscheme": "cat",
+    "mkparents": true,
+    "scrollbar": true,
+    "softwrap": true,
+    "status": false,
+    "statusformatl": "q",
+    "statusline": false,
+    "sucmd": "doas"
+}

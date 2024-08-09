@@ -1,0 +1,23 @@
+#ОПРЕДЕЛЕННЫЙ ВОРКСПЙС
+	assign {
+		[app_id="io.github.tdesktop_x64.TDesktop"] workspace number 4
+		[app_id="ani"] workspace number 6
+		[app_id="org.qbittorrent.qBittorrent"] workspace number 9
+		[app_id="firedragon"] workspace number 10
+
+		[class="Vivaldi-stable"] workspace number 2
+		[class="Spotify"] workspace number 3
+		[class="vesktop"] workspace number 4
+	}
+
+#ПРАВИЛА
+	for_window {
+		[app_id="kfloat"] floating enable, resize set 34 ppt 33 ppt
+		[app_id="ani"] floating enable, resize set 30 ppt 40 ppt
+		[app_id="rfloat"] floating enable, resize set 44 ppt 36 ppt
+		[app_id="pmbt"] floating enable, resize set 30 ppt 30 ppt, move position 69 ppt 68 ppt
+		[app_id="org.qbittorrent.qBittorrent"] floating enable, resize set 38 ppt 34 ppt
+		
+		[class="qBittorrent"] floating enable, resize set 686 400
+		[title="Просмотр медиа"] fullscreen enable
+	}

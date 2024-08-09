@@ -1,0 +1,97 @@
+# ХОТКЕИ
+	set $mod Mod4
+	floating_modifier $mod normal
+	bindsym --to-code {
+		$mod+q kill
+		$mod+f fullscreen
+		$mod+space floating toggle
+		$mod+c exec swaymsg move position center
+		$mod+w exec killall -SIGUSR1 waybar
+		$mod+Shift+w exec killall -SIGUSR2 waybar
+		
+		$mod+s exec swaymsg gaps inner current toggle 12
+		$mod+Shift+s exec swaymsg gaps inner all toggle 12
+
+		$mod+Return exec kitty -T Терминал
+		$mod+Shift+Return exec kitty --class=kfloat -T Терминал
+
+		$mod+Tab exec nwg-drawer -nocats -nofs -d -c 7 -mb -49 -s /home/azik/.config/nwg-drawer/drawer.css
+
+		$mod+b exec vivaldi-stable
+		$mod+Shift+b exec firedragon
+
+		$mod+v exec 64gram-desktop
+		$mod+Shift+v exec vesktop
+
+		$mod+m exec dbus-launch spotify
+
+		$mod+n exec kitty -T Файловик ranger
+		$mod+Shift+n exec kitty --class=rfloat -T Файловик ranger
+		$mod+Alt+n exec dbus-launch nemo
+
+		$mod+y exec qbittorrent
+		
+		$mod+a exec kitty --class=ani -T Оняме anicli-ru -q 1080
+
+		$mod+z exec kitty --class=pmbt --no-mouse -T Звук pulsemixer
+		$mod+Shift+z exec kitty --class=pmbt -T Блюзуб bluetuith
+
+		$mod+grave exec swaymsg exit
+		$mod+Shift+grave reload
+
+		$mod+g layout tabbed
+		$mod+Shift+g layout toggle split
+
+		$mod+p move scratchpad
+		$mod+Shift+p scratchpad show
+
+		$mod+Up resize shrink height 10 px or 10 ppt
+		$mod+Down resize grow height 10 px or 10 ppt
+		$mod+Left resize shrink width 10 px or 10 ppt
+		$mod+Right resize grow width 10 px or 10 ppt
+
+		$mod+Alt+Up focus Up
+		$mod+Alt+Down focus Down
+		$mod+Alt+Left focus left
+		$mod+Alt+Right focus right
+
+		$mod+Shift+Up move Up
+		$mod+Shift+Down move Down
+		$mod+Shift+Left move Left
+		$mod+Shift+Right move Right
+
+		Print exec grimshot savecopy anything
+		Print+Shift exec grimshot savecopy output
+	}
+	
+# ВОРКСПЕЙС
+	bindsym --to-code {
+		$mod+1 workspace number 1
+		$mod+2 workspace number 2
+		$mod+3 workspace number 3
+		$mod+4 workspace number 4
+		$mod+5 workspace number 5
+		$mod+6 workspace number 6
+		$mod+7 workspace number 7
+		$mod+8 workspace number 8
+		$mod+9 workspace number 9
+		$mod+0 workspace number 10
+		$mod+d workspace special
+		$mod+e workspace magic
+	}
+
+# ПЕРЕМЕЩЕНИЕ ОКНА НА ВОРКСПЕЙС
+	bindsym --to-code {
+		$mod+Shift+1 move container to workspace number 1
+		$mod+Shift+2 move container to workspace number 2
+		$mod+Shift+3 move container to workspace number 3
+		$mod+Shift+4 move container to workspace number 4
+		$mod+Shift+5 move container to workspace number 5
+		$mod+Shift+6 move container to workspace number 6
+		$mod+Shift+7 move container to workspace number 7
+		$mod+Shift+8 move container to workspace number 8
+		$mod+Shift+9 move container to workspace number 9
+		$mod+Shift+0 move container to workspace number 10
+		$mod+Shift+d move container to workspace special
+		$mod+Shift+e move container to workspace magic
+	}

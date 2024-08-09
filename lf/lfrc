@@ -1,0 +1,122 @@
+set shell sh
+
+set shellopts '-eu'
+set ifs "\n"
+# set icons
+set drawbox
+set ratios 1:5:8
+set scrolloff 5
+set cursorpreviewfmt "\033[7m"
+map <enter> shell
+map ` !true
+
+map x $$f
+map X !$f
+
+map o &mimeopen $f
+map O $mimeopen --ask $f
+
+cmd open &{{
+    case $(file --mime-type -Lb $f) in
+        text/*) lf -remote "send $id \$$EDITOR \$fx";;
+        *) for f in $fx; do $OPENER $f > /dev/null 2> /dev/null & done;;
+    esac
+}}
+
+map a :push %mkdir<space>
+
+map r push :rename<space>
+
+cmd trash %set -f; mv $fx ~/.trash
+
+# define a custom 'delete' command
+# cmd delete ${{
+#     set -f
+#     printf "$fx\n"
+#     printf "delete?[y/n]"
+#     read ans
+#     [ "$ans" = "y" ] && rm -rf $fx
+# }}
+
+map <delete> trash
+
+#cmd on-cd &{{
+#    export STARSHIP_SHELL=
+#    fmt="$(starship prompt)"
+#    lf -remote "send $id set promptfmt \"$fmt\""
+#}}
+
+cmd extract ${{
+    set -f
+    case $f in
+        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2) tar xjvf $f;;
+        *.tar.gz|*.tgz) tar xzvf $f;;
+        *.tar.xz|*.txz) tar xJvf $f;;
+        *.zip) unzip $f;;
+        *.rar) unrar x $f;;
+        *.7z) 7z x $f;;
+    esac
+}}
+
+cmd tar ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    tar czf $1.tar.gz $1
+    rm -rf $1
+}}
+
+cmd zip ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    zip -r $1.zip $1
+    rm -rf $1
+}}
+
+# Basic
+cmap <tab>   eval fm.ui.console.tab()
+cmap <s-tab> eval fm.ui.console.tab(-1)
+cmap <ESC>   eval fm.ui.console.close()
+cmap <CR>    eval fm.ui.console.execute()
+cmap <C-l>   redraw_window
+
+# Move around
+cmap <up>    eval fm.ui.console.history_move(-1)
+cmap <down>  eval fm.ui.console.history_move(1)
+cmap <left>  eval fm.ui.console.move(left=1)
+cmap <right> eval fm.ui.console.move(right=1)
+cmap <home>  eval fm.ui.console.move(right=0, absolute=True)
+cmap <end>   eval fm.ui.console.move(right=-1, absolute=True)
+cmap <a-b> eval fm.ui.console.move_word(left=1)
+cmap <a-f> eval fm.ui.console.move_word(right=1)
+
+copycmap <a-b> <a-left>
+copycmap <a-f> <a-right>
+
+# Line Editing
+cmap <backspace>  eval fm.ui.console.delete(-1)
+cmap <delete>     eval fm.ui.console.delete(0)
+cmap <C-w>        eval fm.ui.console.delete_word()
+cmap <A-d>        eval fm.ui.console.delete_word(backward=False)
+cmap <C-k>        eval fm.ui.console.delete_rest(1)
+cmap <C-u>        eval fm.ui.console.delete_rest(-1)
+cmap <C-y>        eval fm.ui.console.paste()
+
+# And of course the emacs way
+copycmap <ESC>       <C-g>
+copycmap <up>        <C-p>
+copycmap <down>      <C-n>
+copycmap <left>      <C-b>
+copycmap <right>     <C-f>
+copycmap <home>      <C-a>
+copycmap <end>       <C-e>
+copycmap <delete>    <C-d>
+copycmap <backspace> <C-h>
+
+# Note: There are multiple ways to express backspaces.  <backspace> (code 263)
+# and <backspace2> (code 127).  To be sure, use both.
+copycmap <backspace> <backspace2>
+
+# This special expression allows typing in numerals:
+cmap <allow_quantifiers> false
