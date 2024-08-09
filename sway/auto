@@ -1,9 +1,9 @@
 # АВТОЗАПУСК
 	exec {
+		mako
+		autotiling
 		/usr/bin/lxpolkit
 		python3 ~/.config/sway/scripts/tbssd.py
-		autotiling
-		mako
-		waybar
 		dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+		waybar --config ~/.config/sway_waybar/config --style ~/.config/sway_waybar/style.css
 	}

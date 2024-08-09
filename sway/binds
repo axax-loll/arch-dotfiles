@@ -33,7 +33,7 @@
 		
 		$mod+a exec kitty --class=ani -T Оняме anicli-ru -q 1080
 
-		$mod+z exec kitty --class=pmbt --no-mouse -T Звук pulsemixer
+		$mod+z exec kitty --class=pmbt -T Звук pulsemixer --no-mouse
 		$mod+Shift+z exec kitty --class=pmbt -T Блюзуб bluetuith
 
 		$mod+grave exec swaymsg exit

@@ -5,7 +5,8 @@
 		binds
 		rules
 	}
-	output * background ~/.config/walls/eva.jpg fill
+
+	output * background ~/.walls/eva.jpg fill
 
 # КЛАВИАТУРА
 	input * {

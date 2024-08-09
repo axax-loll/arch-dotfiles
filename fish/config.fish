@@ -59,7 +59,6 @@ alias mki='sudo make install'
 
 alias lut='lutgen apply -p catppuccin-macchiato'
 
-alias dots='cd ~/.dots/arch-dots/'
 alias gp='git commit -m addfiles & git push'
 alias ga='git add .'
 
@@ -75,6 +74,7 @@ export TERMINAL=kitty
 export EDITOR=micro
 
 export dots=~/.config
+export wall=~/.walls
 export cfg=~/.config
 export swaycfg=~/.config/sway
 
