@@ -9,7 +9,7 @@
 </div>
 
 <details> 
-	<summary>Что предоставляется</summary>
-	- **[[Hyprland]](https://github.com/hyprwm/hyprland) и swayfx конфиги**:  мои конфиги имеют прикольные фичи и функции
-  - **Transparent installation**: every command is shown before it's run
+	<summary>**Что предоставляется**</summary>
+	- **Hyprland и swayfx конфиги**:  мои конфиги имеют прикольные фичи и функции
+	- **
 </details>
