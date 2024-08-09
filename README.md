@@ -1,4 +1,15 @@
 <div align="center">
-    <h1>【 AZIKX DOTFILES 】</h1>
-    <h3></h3>
+	<h1>【 AZIKX DOTFILES 】</h1>
+	<h3></h3>
 </div>
+
+<div align="center">
+	<h2>  Общая информация</h2>
+	<h3></h3>
+</div>
+
+<details> 
+	<summary>Что предоставляется</summary>
+	- **[[Hyprland]](https://github.com/hyprwm/hyprland) и swayfx конфиги**:  мои конфиги имеют прикольные фичи и функции
+  - **Transparent installation**: every command is shown before it's run
+</details>
