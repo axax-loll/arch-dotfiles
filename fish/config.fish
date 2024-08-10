@@ -33,6 +33,12 @@ alias kc='micro ~/.config/kitty/kitty.conf'
 
 alias ldc='micro ~/.config/lf/lfrc'
 
+alias jdc='micro ~/.config/joshuto/joshuto.toml'
+alias jkc='micro ~/.config/joshuto/keymap.toml'
+alias jic='micro ~/.config/joshuto/icons.toml'
+alias jtc='micro ~/.config/joshuto/theme.toml'
+alias jmc='micro ~/.config/joshuto/mimetype.toml'
+
 alias rdc='micro ~/.config/ranger/rc.conf'
 alias rrc='micro ~/.config/ranger/rifle.conf'
 
