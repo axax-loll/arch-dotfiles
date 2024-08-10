@@ -1,5 +1,4 @@
 numbered_command = false
-
 mouse_support = true
 focus_on_create = true
 use_trash = true
@@ -8,7 +7,6 @@ xdg_open = true
 xdg_open_fork = false
 case_insensitive_ext = false
 zoxide_update = true
-
 custom_commands = []
 
 [display]
@@ -17,30 +15,27 @@ mode = "default"
 
 automatically_count_files = false
 collapse_preview = true
-# ratios for parent view (optional), current view and preview
 column_ratio = [1, 4, 4]
 scroll_offset = 6
 show_borders = false
 show_hidden = false
 show_icons = false
-# none, absolute, relative
 line_number_style = "relative"
+tilde_in_titlebar = true
 
-# size, mtime, user, gourp, perm. can be combined with |.
-# `none` to disable, `all` to enable all
-# all and none can't be combined with other options
 linemode = "size"
 
 [display.sort]
-# lexical, mtime, natural, size, ext
 sort_method = "natural"
 case_sensitive = false
 directories_first = true
 reverse = false
 
 [preview]
-max_preview_size = 100000000                           # 2MB
-preview_script = "~/.config/joshuto/preview_file.sh" # make sure it's marked as executable
+max_preview_size = 100000000
+preview_script = "~/.config/joshuto/preview_file.sh"
+use_xdg_thumbs = true
+xdg_thumb_size = "xlarge"
 
 [search]
 # insensitive, sensitive, smart
@@ -53,5 +48,6 @@ regex_case_sensitivity = "sensitive"
 fzf_case_sensitivity = "insensitive"
 
 [tab]
-# inherit, home, root
 home_page = "inherit"
+
+[cmd_aliases]

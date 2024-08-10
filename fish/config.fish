@@ -31,6 +31,8 @@ alias src='micro ~/.config/sway/rules'
 
 alias kc='micro ~/.config/kitty/kitty.conf'
 
+alias ldc='micro ~/.config/lf/lfrc'
+
 alias rdc='micro ~/.config/ranger/rc.conf'
 alias rrc='micro ~/.config/ranger/rifle.conf'
 

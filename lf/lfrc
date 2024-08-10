@@ -3,7 +3,7 @@ set shell sh
 set shellopts '-eu'
 set ifs "\n"
 # set icons
-set drawbox
+# set drawbox
 set ratios 1:5:8
 set scrolloff 5
 set cursorpreviewfmt "\033[7m"
