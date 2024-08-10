@@ -67,9 +67,11 @@ alias mki='sudo make install'
 
 alias lut='lutgen apply -p catppuccin-macchiato'
 
-alias ga='git add ./cava ./hypr ./sway ./micro ./fastfetch ./gtk-3.0 ./gtk-2.0 ./helix ./joshuto ./kitty ./lf ./ranger ./mako ./nwg-drawer ./nwg-look ./fish ./omf ./qt5ct ./qt6ct ./hypr_waybar ./sway_waybar README.md'
+alias gA='git add ./cava ./hypr ./sway ./micro ./fastfetch ./gtk-3.0 ./gtk-2.0 ./helix ./joshuto ./kitty ./lf ./ranger ./mako ./nwg-drawer ./nwg-look ./fish ./omf ./qt5ct ./qt6ct ./hypr_waybar ./sway_waybar README.md'
+alias ga='git add'
 alias gp='git commit -m addfiles & git push'
 alias gpp='git commit -m addfiles & git push & git commit -m addfiles & git push'
+alias gr='git rm -r --cached'
 
 # ЭКСПОРТЫ
 set fish_greeting
