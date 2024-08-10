@@ -42,14 +42,14 @@
   <summary>Софтина</summary>
 
 
-  | Software | Purpose |
+  | Название | Описание |
   | ------------- | ------------- |
   | [vivaldi](https://vivaldi.com/ru) | Браузер на хромиуме |
   | [firedragon](https://github.com/dr460nf1r3/firedragon-browser) | Браузер на базе форка фуррифокса - floorp  |
   | [bottles](https://github.com/bottlesdevs/Bottles) | Пускатель виндовых игр |
   | [nemo](https://github.com/linuxmint/nemo) | Файловый менеджер из мяты |
   | [obsidian](https://obsidian.md) | Штука для мыслей итд, для записей и блокнота |
-  | [prismlauncher](https://github.com/PrismLauncher/PrismLauncher) |
+  | [prismlauncher](https://github.com/PrismLauncher/PrismLauncher) | Майнкууууфт мояя жииизнь аааааа |
   | [vesktop](https://github.com/Vencord/Vesktop) | Клиент дискорда для вяленда |
   | [qbittorrent](https://github.com/qbittorrent/qBittorrent) | Торренты))))) хыхыхы)))) |
   | [64gram](https://github.com/TDesktop-x64/tdesktop) | Форк тг'шки с плюшками |
@@ -63,7 +63,7 @@
   | [joshuto](https://github.com/kamiyaa/joshuto) | Консольный файловик на Rust |
   | [lutgen](https://github.com/ozwaldorf/lutgen-rs) | Штука для применения своей цвет. схемы к фото |
   | [doas](https://wiki.archlinux.org/title/Doas) | Более быстрая и легкая замена sudo |
-  | [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) |
+  | [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) | Гноме лайк лаунчер приложений |
   | [waybar](https://github.com/Alexays/Waybar) | Панелька для вялендов |
   
 
@@ -80,3 +80,5 @@
 
 ### Окна без pseudo и без закруглений
 ![aye](https://github.com/axax-loll/dots/blob/main/git_img/seven.png?raw=true)
+
+#### ENGLISH OR SPANISH??? WHOEVER MOVES IS GAY)))))))
