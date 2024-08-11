@@ -85,8 +85,8 @@ keymap = [
   { keys = ["d", "d"], commands = ["delete_files --noconfirm"] },
   { keys = ["d", "D"], commands = ["delete_files --noconfirm --permanently"] },
 
-  { keys = ["p", "p"], commands = ["paste_files"] },
-  { keys = ["p", "o"], commands = ["paste_files --overwrite=true"] },
+  { keys = ["v", "v"], commands = ["paste_files"] },
+  { keys = ["v", "V"], commands = ["paste_files --overwrite=true"] },
 
   { keys = ["r", "r"], commands = ["rename_append"] },
   { keys = ["r", "R"], commands = ["rename_prepend"] },
@@ -97,7 +97,7 @@ keymap = [
 
   { keys = [" "], commands = ["select --toggle=true"] },
   { keys = ["v", "a"], commands = ["select --all=true --toggle=true"] },
-  { keys = ["v", "v"], commands = ["toggle_visual"] },
+  { keys = ["v", "i"], commands = ["toggle_visual"] },
 
   { keys = ["w"], commands = ["show_tasks --exit-key=w"] },
   { keys = ["r", "b"], commands = ["bulk_rename"] },

@@ -34,7 +34,7 @@ alias kc='micro ~/.config/kitty/kitty.conf'
 alias ldc='micro ~/.config/lf/lfrc'
 
 alias jdc='micro ~/.config/joshuto/joshuto.toml'
-alias jkc='micro ~/.config/joshuto/keymap.toml'
+alias jbc='micro ~/.config/joshuto/keymap.toml'
 alias jic='micro ~/.config/joshuto/icons.toml'
 alias jtc='micro ~/.config/joshuto/theme.toml'
 alias jmc='micro ~/.config/joshuto/mimetype.toml'
@@ -68,10 +68,15 @@ alias mki='sudo make install'
 alias lut='lutgen apply -p catppuccin-macchiato'
 
 alias gA='git add ./cava ./hypr ./sway ./micro ./fastfetch ./gtk-3.0 ./gtk-2.0 ./helix ./joshuto ./kitty ./lf ./ranger ./mako ./nwg-drawer ./nwg-look ./fish ./omf ./qt5ct ./qt6ct ./hypr_waybar ./sway_waybar README.md'
-alias ga='git add'
+alias ga='git add .'
 alias gp='git commit -m addfiles & git push'
 alias gpp='git commit -m addfiles & git push & git commit -m addfiles & git push'
 alias gr='git rm -r --cached'
+
+alias mss='sys start fabricd.service'
+alias msr='sys restart fabricd.service'
+alias mst='sys stop fabricd.service'
+alias msa='sys status fabricd.service'
 
 # ЭКСПОРТЫ
 set fish_greeting

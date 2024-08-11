@@ -1,4 +1,11 @@
 {
+	"Ctrl-w": "Save,Quit",
+	"Ctrl-o": "DeleteWordLeft",
+	"Ctrl-p": "DeleteWordRight",
+	"Ctrl-o": "SelectWordLeft",
+	"Ctrl-p": "SelectWordRight",
+	
     "Alt-/": "lua:comment.comment",
+    
     "CtrlUnderscore": "lua:comment.comment"
 }
