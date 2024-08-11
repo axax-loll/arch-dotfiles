@@ -1,6 +1,7 @@
 .log
 .logs
 
+PortProton.conf
 QtProject.conf
 connections.db
 kglobalshortcutsrc
