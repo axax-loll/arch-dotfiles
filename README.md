@@ -19,7 +19,7 @@
   <summary>Общее у оконников</summary>
      
   - **mod+d -> mod+tab**: вместо привычного mod+d, для открытия [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) используется mod+tab
-  - **Kitty**: используется единый терминал ~~[kitty](https://github.com/kovidgoyal/kitty)~~ [foot](https://codeberg.org/dnkl/foot)
+  - **НОГА**: используется единый терминал ~~[kitty](https://github.com/kovidgoyal/kitty)~~ [foot](https://codeberg.org/dnkl/foot)
   - **Waybar**: стиль бара одинаковый потому что я художник я так вижу
   - **Го|джо like configs**: разделены конфиги для удобного изменения их
 </details>
