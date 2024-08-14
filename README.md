@@ -54,7 +54,7 @@
   | [qbittorrent](https://github.com/qbittorrent/qBittorrent) | Торренты))))) хыхыхы)))) |
   | [64gram](https://github.com/TDesktop-x64/tdesktop) | Форк тг'шки с плюшками |
   | [file-Roller](https://gitlab.gnome.org/GNOME/file-roller) | Файловик для гуишек |
-  | [fastfetch](https://github.com/fastfetch-cli/fastfetch) | Фетч, у меня версия ''fastfetch 2.9.1-1'', если хотите ставьте мою [отсюда](https://archive.archlinux.org/packages/f/fastfetch/fastfetch-2.9.1-1-x86_64.pkg.tar.zst) |
+  | [fastfetch](https://github.com/fastfetch-cli/fastfetch) | Фетч, постепенно обновляю фетч |
   | [micro](https://github.com/zyedidia/micro) | Простейший и удобный текстовый редактор |
   | [cava](https://github.com/karlstav/cava) | Визуализатор звука для песенок и рэпа |
   | [eza](https://github.com/eza-community/eza) | Аналог ls со ЦВЕТНЫМИ правами и чем то еще |
@@ -65,6 +65,8 @@
   | [doas](https://wiki.archlinux.org/title/Doas) | Более быстрая и легкая замена sudo |
   | [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) | Гноме лайк лаунчер приложений |
   | [waybar](https://github.com/Alexays/Waybar) | Панелька для вялендов |
+  | [cascadia](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaMono) | Шрифт caskaydia |
+  | [jetbrains](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) | Шрифт caskaydia |
   
 
   - Вроде всё описал, если че пишите
