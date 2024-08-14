@@ -19,7 +19,7 @@
   <summary>Общее у оконников</summary>
      
   - **mod+d -> mod+tab**: вместо привычного mod+d, для открытия [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) используется mod+tab
-  - **Kitty**: используется единый терминал [kitty](https://github.com/kovidgoyal/kitty)
+  - **Kitty**: используется единый терминал ~~[kitty](https://github.com/kovidgoyal/kitty)~~ [foot](https://codeberg.org/dnkl/foot)
   - **Waybar**: стиль бара одинаковый потому что я художник я так вижу
   - **Го|джо like configs**: разделены конфиги для удобного изменения их
 </details>
@@ -44,7 +44,10 @@
 
   | Название | Описание |
   | ------------- | ------------- |
-  | [vivaldi](https://vivaldi.com/ru) | Браузер на хромиуме |
+  | [foot](https://codeberg.org/dnkl/foot) | Терминал, простейший пизда, tmux еще не поставил |
+  | [kitty](https://github.com/kovidgoyal/kitty) | Терминал, более функциональный, вцелом советую его |
+  | [fish](https://github.com/fish-shell/fish-shell) | Шелл, планирую переходить на zsh, а также иметь nushell |
+  | [vivaldi](https://vivaldi.com/ru) | Браузер на хромиуме с фишками |
   | [firedragon](https://github.com/dr460nf1r3/firedragon-browser) | Браузер на базе форка фуррифокса - floorp  |
   | [bottles](https://github.com/bottlesdevs/Bottles) | Пускатель виндовых игр |
   | [nemo](https://github.com/linuxmint/nemo) | Файловый менеджер из мяты |
@@ -65,8 +68,8 @@
   | [doas](https://wiki.archlinux.org/title/Doas) | Более быстрая и легкая замена sudo |
   | [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) | Гноме лайк лаунчер приложений |
   | [waybar](https://github.com/Alexays/Waybar) | Панелька для вялендов |
-  | [cascadia](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaMono) | Шрифт caskaydia |
-  | [jetbrains](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) | Шрифт caskaydia |
+  | [caskaydia](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaMono) | Шрифт cascadia с нёрд символами |
+  | [jetbrains](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) | Шрифт jetbrains с нёрд символами |
   
 
   - Вроде всё описал, если че пишите
