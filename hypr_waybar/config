@@ -7,7 +7,7 @@
     "start_hidden": true,
     
     // Choose the order of the modules
-    "modules-left": ["custom/launcher", "memory", "hyprland/window"],
+    "modules-left": ["custom/launcher", "hyprland/submap", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["tray", "custom/cava", "pulseaudio", "hyprland/language", "clock"],
 
@@ -44,7 +44,7 @@
      },
      
     "custom/launcher":{
-        "format": "    Лаунчер  ",
+        "format": " 󰄛 Лаунчер ",
         "on-click": "nwg-drawer -nocats -nofs -d -c 7 -mb -49 -s /home/azik/.config/nwg-drawer/draw.css",
         "on-click-right": "kitty --class=launcher -T Лаунчер sway-launcher-desktop",
         "tooltip": false,
@@ -54,6 +54,12 @@
         "format": " {title} ",
         "max-length": 40,
         "tooltip": false,
+    },
+
+    "hyprland/submap": {
+        "format": " 󱢶 {} " ,
+        "max-length": 16,
+        "tooltip": false
     },
     
     "tray": {
@@ -73,26 +79,27 @@
     
     "clock": {
         "timezone": "Asia/Yakutsk",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format": "{:%H:%M} 󰥔",
+        "format-alt": "{:%Y-%m-%d} ",
+        "tooltip": false,
     },
     
     "hyprland/language": {
     	"tooltip": false,
-    	"format": " Язык: {} ",
+    	"format": " {}   ",
     	"format-en": "АМЕРИКА ЧЁРТ ВОЗЬМИ",
     	"format-ru": "РОССИЯ! РОССИЯ!",
     },
     
     "custom/date": {
         "timezone": "Asia/Yakutsk",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<big>  {:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
     
     "pulseaudio": {
         "scroll-step": 10, // %, can be a float
-        "format": "{volume}%  {icon} ",
+        "format": "{volume}% {icon} ",
         "format-icons": {
             "headphone": "",
             "hands-free": "",

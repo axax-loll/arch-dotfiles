@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Inter;
+    font-family: CaskaydiaCove Nerd Font;
     font-weight: bold;
     font-size: 13px;
 }
@@ -16,11 +16,23 @@ window#waybar {
 button {
     box-shadow: inset 0 -3px transparent;
     border: none;
-    border-radius: 6;
+    border-radius: 6px;
+    border-color: #181926;
 }
 
 button:hover {
     background: inherit;
+}
+
+#submap {
+	background: rgb(245,169,127);
+	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(238,212,159,1) 100%);
+	color: #24273a;
+    margin-top: 4;
+    margin-bottom: 4;
+    margin-left: 2;
+    margin-right: 2;
+    border-radius: 6px;
 }
 
 #workspaces button {
@@ -34,7 +46,7 @@ button:hover {
 }
 
 #workspaces button:hover {
-    background: #b7bdf8;
+	background-color: #b7bdf8;
     color: #24273a;
     margin-top: 4;
     margin-bottom: 4;
@@ -43,7 +55,18 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #c6a0f6;
+	background: rgb(198,160,246);
+	background: linear-gradient(90deg, rgba(198,160,246,1) 0%, rgba(245,189,230,1) 45%, rgba(240,198,198,1) 80%);
+    color: #24273a;
+    margin-top: 4;
+    margin-bottom: 4;
+    margin-left: 2;
+    margin-right: 2;
+}
+
+#workspaces button.special {
+	background: rgb(125,196,228);
+	background: linear-gradient(90deg, rgba(125,196,228,1) 0%, rgba(145,215,227,1) 50%);
     color: #24273a;
     margin-top: 4;
     margin-bottom: 4;
@@ -74,12 +97,11 @@ button:hover {
 	margin-left: 4px;
     margin-top: 4;
     margin-bottom: 4;
-	padding-left: 2px;
-	padding-right: 2px;
 	border-radius: 6px;
 	transition: none;
     color: #24273a;
-    background: #f4dbd6;
+	background: rgb(237,135,150);
+	background: linear-gradient(90deg, rgba(237,135,150,1) 0%, rgba(238,153,160,1) 50%, rgba(245,169,127,1) 100%);
 }
 
 #mode {
@@ -123,9 +145,10 @@ button:hover {
 }
 
 #clock {
-    background-color: #8bd5ca;
+	background: rgb(139,213,202);
+	background: linear-gradient(90deg, rgba(139,213,202,1) 0%, rgba(145,215,227,1) 50%, rgba(125,196,228,1) 100%);
     color: #24273a;
-    border-radius: 6;
+    border-radius: 6px;
     margin-top: 4;
     margin-bottom: 4;
     margin-left: 2;
@@ -135,7 +158,7 @@ button:hover {
 #memory {
     background-color: #f5bde6;
     color: #24273a;
-    border-radius: 6;
+    border-radius: 6px;
     margin-top: 4;
     margin-bottom: 4;
     margin-left: 2;
@@ -155,7 +178,7 @@ button:hover {
 #window {
     background-color: #24273a;
     color: #cad3f5;
-    border-radius: 6;
+    border-radius: 6px;
     margin-top: 4;
     margin-bottom: 4;
     margin-left: 2;
@@ -194,7 +217,8 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #eed49f;
+	background: rgb(245,169,127);
+	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(238,212,159,1) 50%);
     color: #24273a;
     border-radius: 6;
     margin-top: 4;
@@ -204,7 +228,8 @@ label:focus {
 }
 
 #pulseaudio.muted {
-    background-color: #f5a97f;
+	background: rgb(245,169,127);
+	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(245,169,127,1) 50%);
     color: #24273a;
 }
 
@@ -285,12 +310,13 @@ label:focus {
 }
 
 #language {
-    background: #a6da95;
+	background: rgb(166,218,149);
+	background: linear-gradient(90deg, rgba(166,218,149,1) 0%, rgba(139,213,202,1) 50%);
     color: #24273a;
     padding: 0 5px;
     margin: 0 5px;
-    min-width: 16px;
-    border-radius: 6;
+    min-width: 18px;
+    border-radius: 6px;
     margin-top: 4;
     margin-bottom: 4;
     margin-right: 4;
@@ -302,7 +328,7 @@ label:focus {
     color: #000000;
     padding: 0 0px;
     margin: 0 5px;
-    min-width: 16px;
+    min-width: 18px;
 }
 
 #keyboard-state > label {
@@ -325,7 +351,7 @@ label:focus {
     color: #8FBC8F;
     border-left: 0px;
     border-right: 0px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     font-family: "bargraph";
     font-size: 22px;
 }
