@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+foot -w $(slurp -b "#181926CC" -c "#8bd5caFF" -w "3" -f "%wx%h") -a footz -T Терминал

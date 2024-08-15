@@ -1,4 +1,4 @@
- # АЛИАСЫ
+# АЛИАСЫ
 clear
 
 alias c='clear'
