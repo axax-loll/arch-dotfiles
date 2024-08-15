@@ -9,6 +9,8 @@ set scrolloff 5
 set cursorpreviewfmt "\033[7m"
 map <enter> shell
 map ` !true
+set previewer ~/.config/lf/previewer
+set cleaner ~/.config/lf/cleaner
 
 map x $$f
 map X !$f

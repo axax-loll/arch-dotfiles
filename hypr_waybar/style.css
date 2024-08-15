@@ -1,5 +1,4 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
     font-family: CaskaydiaCove Nerd Font;
     font-weight: bold;
     font-size: 13px;
@@ -25,14 +24,41 @@ button:hover {
 }
 
 #submap {
-	background: rgb(245,169,127);
-	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(238,212,159,1) 100%);
+	background: rgb(245,189,230);
+	background: linear-gradient(90deg, rgba(245,189,230,1) 0%, rgba(240,198,198,1) 35%, rgba(244,219,214,1) 80%);
+	animation: gradient 15s ease infinite;
 	color: #24273a;
     margin-top: 4;
     margin-bottom: 4;
     margin-left: 2;
     margin-right: 2;
     border-radius: 6px;
+}
+
+#submap.resize {
+	background: rgb(245,169,127);
+	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(238,212,159,1) 35%);
+	color: #24273a;
+    margin-top: 4;
+    margin-bottom: 4;
+    margin-left: 2;
+    margin-right: 2;
+    border-radius: 6px;
+}
+
+#submap.resize {
+	background: rgb(245,169,127);
+	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(238,212,159,1) 35%);
+}
+
+#submap.move {
+	background: rgb(139,213,202);
+	background: linear-gradient(90deg, rgba(139,213,202,1) 0%, rgba(145,215,227,1) 25%, rgba(125,196,228,1) 50%, rgba(138,173,244,1) 75%, rgba(183,189,248,1) 100%);
+}
+
+#submap.focus {
+	background: rgb(245,189,230);
+	background: linear-gradient(90deg, rgba(245,189,230,1) 0%, rgba(198,160,246,1) 25%, rgba(138,173,244,1) 50%);
 }
 
 #workspaces button {
@@ -145,6 +171,17 @@ button:hover {
 }
 
 #clock {
+	background: rgb(138,173,244);
+	background: linear-gradient(90deg, rgba(138,173,244,1) 0%, rgba(183,189,248,1) 60%, rgba(202,211,245,1) 100%);
+    color: #24273a;
+    border-radius: 6px;
+    margin-top: 4;
+    margin-bottom: 4;
+    margin-left: 2;
+    margin-right: 2;
+}
+
+#user {
 	background: rgb(139,213,202);
 	background: linear-gradient(90deg, rgba(139,213,202,1) 0%, rgba(145,215,227,1) 50%, rgba(125,196,228,1) 100%);
     color: #24273a;

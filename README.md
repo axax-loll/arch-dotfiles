@@ -19,7 +19,7 @@
   <summary>Общее у оконников</summary>
      
   - **mod+d -> mod+tab**: вместо привычного mod+d, для открытия [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) используется mod+tab
-  - **НОГА**: используется единый терминал ~~[kitty](https://github.com/kovidgoyal/kitty)~~ [foot](https://codeberg.org/dnkl/foot)
+  - **НОГАТОРУ = КОШКА**: используется единый терминал [kitty](https://github.com/kovidgoyal/kitty) и [foot](https://codeberg.org/dnkl/foot)
   - **Waybar**: стиль бара одинаковый потому что я художник я так вижу
   - **Го|джо like configs**: разделены конфиги для удобного изменения их
 </details>
@@ -44,8 +44,8 @@
 
   | Название | Описание |
   | ------------- | ------------- |
-  | [foot](https://codeberg.org/dnkl/foot) | Терминал, простейший пизда, tmux еще не поставил |
   | [kitty](https://github.com/kovidgoyal/kitty) | Терминал, более функциональный, вцелом советую его |
+  | [foot](https://codeberg.org/dnkl/foot) | Терминал, простейший пизда, tmux еще не поставил |
   | [fish](https://github.com/fish-shell/fish-shell) | Шелл, планирую переходить на zsh, а также иметь nushell |
   | [vivaldi](https://vivaldi.com/ru) | Браузер на хромиуме с фишками |
   | [firedragon](https://github.com/dr460nf1r3/firedragon-browser) | Браузер на базе форка фуррифокса - floorp  |

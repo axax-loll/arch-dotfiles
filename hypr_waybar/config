@@ -1,17 +1,13 @@
 {
-    "layer": "top", // Waybar at top layer
-    // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
-    "spacing": 10, // Gaps between modules (4px)
+    "layer": "top",
+    "height": 30,
+    "spacing": 10,
     "start_hidden": true,
     
-    // Choose the order of the modules
     "modules-left": ["custom/launcher", "hyprland/submap", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["tray", "custom/cava", "pulseaudio", "hyprland/language", "clock"],
 
-    // Modules configuration
     "hyprland/workspaces": {
     	 "show-special": true,
          "disable-scroll": false,
@@ -59,12 +55,21 @@
     "hyprland/submap": {
         "format": " 󱢶 {} " ,
         "max-length": 16,
-        "tooltip": false
+        "tooltip": false,
+        "on-click":"hyprctl dispatch submap reset"
     },
     
     "tray": {
         "icon-size": 20,
         "spacing": 15
+    },
+
+    "user": {
+            "format": " {user} ",
+            "interval": 60,
+            "height": 30,
+            "width": 30,
+            "icon": true,
     },
     
     "memory": {
@@ -131,9 +136,6 @@
             "noise_reduction": 0.77,
             "input_delay": 2,
             "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
-            "actions": {
-                       "on-click-right": "mode"
-                       }
 	},
     
         "escape": true,
