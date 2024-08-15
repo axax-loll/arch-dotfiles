@@ -9,6 +9,8 @@ user-dirs.dirs
 user-dirs.locale
 yad.conf
 
+libvirt/
+gnome-boxes/
 chromium/
 Kvantum/
 Vencord/
@@ -19,6 +21,7 @@ hydra/
 hydralauncher/
 libreoffice/
 menus/
+xfce4/
 micro/backups/
 mimeapps.list
 nemo/
