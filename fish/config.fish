@@ -1,3 +1,10 @@
+# .-:::::'::: .::::::.   ::   .:  
+# ;;;'''' ;;;;;;`    `  ,;;   ;;, 
+# [[[,,== [[['[==/[[[[,,[[[,,,[[[ 
+# `$$$"`` $$$  '''    $"$$$"""$$$ 
+#  888    888 88b    dP 888   "88o
+#  "MM,   MMM  "YMmMY"  MMM    YMM
+
 # АЛИАСЫ
 clear
 
@@ -66,11 +73,12 @@ alias mk='make'
 alias mki='sudo make install'
 
 alias lut='lutgen apply -p catppuccin-macchiato'
+alias fig='figlet -kf ~/.config/cosmic.flf -w 90'
 
-alias gA='git add ./cava ./hypr ./sway ./micro ./fastfetch ./gtk-3.0 ./gtk-2.0 ./helix ./joshuto ./kitty ./lf ./ranger ./mako ./nwg-drawer ./nwg-look ./fish ./omf ./qt5ct ./qt6ct ./hypr_waybar ./sway_waybar README.md'
 alias ga='git add .'
-alias gp='git commit -m addfiles & git push'
-alias gpp='git commit -m addfiles & git push & git commit -m addfiles & git push'
+alias gl='git pull'
+alias gp='git push'
+alias gc='git commit -m addfiles '
 alias gr='git rm -r --cached'
 
 alias mss='sys start fabricd.service'
@@ -96,7 +104,9 @@ export swaycfg=~/.config/sway
 
 fish_add_path ~/.spicetify
 fish_add_path ~/.local/bin
+
 zoxide init fish | source
+starship init fish | source
 
 [ "$(tty)" = "/dev/tty1" ] && exec Hyprland
 # [ "$(tty)" = "/dev/tty1" ] && exec sway
