@@ -1,0 +1,82 @@
+#  .::::::.:::::::::::::::.    :::::::..   .::::::.   ::   .:  :::::::::::::. 
+# ;;;`    `;;;;;;;;'''';;`;;   ;;;;``;;;; ;;;`    `  ,;;   ;;, ;;; `;;;```.;;;
+# '[==/[[[[,    [[    ,[[ '[[,  [[[,/[[[' '[==/[[[[,,[[[,,,[[[ [[[  `]]nnn]]' 
+#   '''    $    $$   c$$$cc$$$c $$$$$$c     '''    $"$$$"""$$$ $$$   $$$""    
+#  88b    dP    88,   888   888,888b "88bo,88b    dP 888   "88o888   888o     
+#   "YMmMY"     MMM   YMM   ""` MMMM   "W"  "YMmMY"  MMM    YMMMMM   YMMMb    
+
+format = """
+$username\
+$os\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$line_break\
+$python\
+$character
+"""
+follow_symlinks = true
+
+[time]
+format = '[$time]($style) '
+time_format = '%R'
+style = 'bold yellow'
+utc_time_offset = '+9'
+disabled = false
+
+[username]
+format = '[$user]($style) '
+style_user = 'bold fg:#c6a0f6'
+style_root = 'bold red'
+show_always = true
+disabled = false
+
+[hostname]
+ssh_only = false
+format = '[$hostname](bold blue) '
+aliases = { "amella" = "pidor notebook" }
+disabled = false
+
+[os]
+format = "on [($name )]($style)"
+style = "bold fg:#f5bde6"
+disabled = false
+
+[directory]
+format = 'in [$path]($style) [$read_only]($read_only_style)'
+style = "bold fg:#8bd5ca"
+read_only = '󰌾'
+read_only_style = 'bold red'
+truncation_length = 3
+truncation_symbol = '…/'
+
+[directory.substitutions]
+"Документы" = "󰈙 "
+"Загрузки" = " "
+"Музыка" = " "
+"Видео" = " "
+"Изображения" = " "
+"Рабочий стол" = " "
+".config" = " "
+".walls" = "󰟾 "
+
+[character]
+format = '$symbol : '
+success_symbol = "[](green)"
+error_symbol = "[](red)"
+vimcmd_symbol = "[](yellow)"
+
+[git_branch]
+format = "use [$symbol$branch]($style)"
+symbol = ''
+style = "bold fg:#b7bdf8"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "yellow"
+
+[python]
+format = "[$virtualenv]($style) "
+style = "bright-black"
