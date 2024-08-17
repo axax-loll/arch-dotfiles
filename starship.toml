@@ -6,9 +6,11 @@
 #   "YMmMY"     MMM   YMM   ""` MMMM   "W"  "YMmMY"  MMM    YMMMMM   YMMMb    
 
 format = """
+$shell\
 $username\
 $directory\
 $git_branch\
+$package\
 $cmd_duration\
 $line_break\
 $character\
@@ -17,6 +19,18 @@ $character\
 [os]
 format = "[$symbol]($style)"
 style = "bold bg:#7dc4e4 fg:black"
+disabled = false
+
+[shell]
+fish_indicator = '\[fish\]($style)'
+zsh_indicator = '\[zsh\]($style)'
+bash_indicator = '\[bash\]($style)'
+powershell_indicator = '\[pwsh\]($style)'
+tcsh_indicator = '\[tcsh\]($style)'
+cmd_indicator = '\[cmd\]($style)'
+nu_indicator = '\[nu\]($style)'
+unknown_indicator = '\[sh ?\]'
+style = 'bold fg:#f5bde6'
 disabled = false
 
 [username]
@@ -31,6 +45,7 @@ format = '[$path]($style) [$read_only]($read_only_style)'
 style = "bold fg:#8aadf4"
 read_only = '[󰌾] '
 read_only_style = 'bold red'
+home_symbol = '~~'
 truncation_length = 3
 truncation_symbol = '../'
 disabled = false
@@ -43,6 +58,14 @@ truncation_length = 4
 truncation_symbol = ''
 disabled = false
 
+[package]
+format = 'via [󰏗 $version](bold fg:#f5a97f) '
+
+[cmd_duration]
+min_time = 1000
+format = 'took [$duration](blink bold fg:#eed49f)'
+disabled = false
+
 [time]
 format = '[$time]($style)'
 time_format = '%R'
@@ -52,14 +75,9 @@ disabled = false
 
 [character]
 format = '$symbol '
-success_symbol = "[❯](bold fg:#c6a0f6)"
-error_symbol = "[❯](bold red)"
-vimcmd_symbol = "[❯](bold yellow)"
-disabled = false
-
-[cmd_duration]
-min_time = 1000
-format = 'took [$duration](blink bold fg:#eed49f)'
+success_symbol = "[❯❯❯](bold green)"
+error_symbol = "[❯❯❯](bold red)"
+vimcmd_symbol = "[❯❯❯](bold yellow)"
 disabled = false
 
 
@@ -67,15 +85,18 @@ disabled = false
 symbol = "󰔷 "
 
 [nix_shell]
+format = 'via [$symbol$state]($style) '
+style = 'bold fg:#91d7e3'
 symbol = " "
 
-[package]
-symbol = "󰏗 "
-
 [python]
+format = 'via [$symbol $version]($style) '
+style = 'bold fg:#eed49f'
 symbol = " "
 
 [rust]
+format = 'via [$symbol $numver]($style) '
+style = 'bold fg:#ee99a0'
 symbol = "󱘗 "
 
 [os.symbols]

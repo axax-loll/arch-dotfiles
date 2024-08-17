@@ -80,10 +80,13 @@
 ### Пикрил с fastfetch
 ![aye](https://github.com/axax-loll/dots/blob/main/git_img/fetch.png?raw=true)
 
-### Пик с pseudo и закруглениями
-![aye](https://github.com/axax-loll/dots/blob/main/git_img/windoes.png?raw=true)
-
-### Окна без pseudo и без закруглений
+### Нзавние не придумал
 ![aye](https://github.com/axax-loll/dots/blob/main/git_img/seven.png?raw=true)
+
+### Промт starship для zsh и fish))) 
+![aye](https://github.com/axax-loll/dots/blob/main/git_img/first.png?raw=true)
+
+### АНИМЕШКИ АХАХАХХАХА
+![aye](https://github.com/axax-loll/dots/blob/main/git_img/ani.png?raw=true)
 
 #### ENGLISH OR SPANISH??? WHOEVER MOVES IS GAY)))))))
