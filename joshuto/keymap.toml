@@ -16,7 +16,7 @@ keymap = [
   { keys = ["z", "h"], commands = ["toggle_hidden"] },
   { keys = ["z", "f"], commands = ["flat 2"] },
   { keys = ["z", "F"], commands = ["flat 0"] },
-  { keys = ["ctrl+h"], commands = ["toggle_hidden"] },
+  { keys = ["backspace"], commands = ["toggle_hidden"] },
   { keys = ["t", "s"], commands = ["tab_switch 1"] },
   { keys = ["t", "S"], commands = ["tab_switch -1"] },
   { keys = ["\t"], commands = ["tab_switch 1"] },

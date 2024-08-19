@@ -8,7 +8,7 @@
 		$mod+c exec swaymsg move position center
 		$mod+w exec killall -SIGUSR1 waybar
 		$mod+Shift+w exec killall -SIGUSR2 waybar
-		
+
 		$mod+s exec swaymsg gaps inner current toggle 12
 		$mod+Shift+s exec swaymsg gaps inner all toggle 12
 
@@ -30,7 +30,7 @@
 		$mod+Alt+n exec dbus-launch nemo
 
 		$mod+y exec qbittorrent
-		
+
 		$mod+a exec kitty --class=ani -T Оняме anicli-ru -q 1080
 
 		$mod+z exec kitty --class=pmbt -T Звук pulsemixer --no-mouse
@@ -63,7 +63,7 @@
 		Print exec grimshot savecopy anything
 		Print+Shift exec grimshot savecopy output
 	}
-	
+
 # ВОРКСПЕЙС
 	bindsym --to-code {
 		$mod+1 workspace number 1

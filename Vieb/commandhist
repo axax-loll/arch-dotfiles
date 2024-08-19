@@ -1,0 +1,21 @@
+set
+help
+tabnew
+help
+pin 1
+quitall
+set
+set adblocker
+nmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+pmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+vmap q<Any> <:nunmap q<Any>><:punmap q<Any>><:vunmap q<Any>><:nunmap q<C-[>><:punmap q<C-[>><:vunmap q<C-[>><:nunmap q<Esc>><:punmap q<Esc>><:vunmap q<Esc>><startRecording>
+nmap q<C-[> <nop>
+pmap q<C-[> <nop>
+vmap q<C-[> <nop>
+nmap q<Esc> <nop>
+pmap q<Esc> <nop>
+vmap q<Esc> <nop>
+set tabnewposition=left
+set tabnewposition=right
+colorscheme
+quitall

@@ -11,11 +11,23 @@ clear
 alias c='clear'
 alias da='doas'
 alias sudo='doas'
-alias ls='ls --color=auto'
+alias edit='$EDITOR'
+alias e='$EDITOR'
+alias mf='touch'
 alias md='mkdir -p'
 alias sys='sudo systemctl'
 alias fuc='fish_update_completions'
 alias x='exit'
+
+alias SEM='set $EDITOR=micro'
+alias SEN='set $EDITOR=nvim'
+
+alias ls='eza -G --group-directories-first'
+alias ll='eza -1 --group-directories-first'
+alias la='eza -l --group-directories-first'
+alias lr='eza -R --group-directories-first'
+alias lt='eza -TL 2 --group-directories-first'
+alias lg='eza --git-ignore --group-directories-first'
 
 alias grubmk='doas grub-mkconfig -o /boot/grub/grub.cfg'
 
@@ -24,30 +36,35 @@ alias pr='doas pacman -R --noconfirm'
 alias prr='doas pacman -Rss --noconfirm'
 alias prc='sudo pacman -R $(pacman -Qdtq)'
 
-alias fc='micro ~/.config/fish/config.fish'
+alias fdc='$EDITOR ~/.config/fish/config.fish'
+alias ndc='$EDITOR  $nu.env-path'
 
-alias hdc='micro ~/.config/hypr/hyprland.conf'
-alias hrc='micro ~/.config/hypr/rules.conf'
-alias hbc='micro ~/.config/hypr/binds.conf'
-alias hac='micro ~/.config/hypr/auto.conf'
+alias hdc='$EDITOR ~/.config/hypr/hyprland.conf'
+alias hrc='$EDITOR ~/.config/hypr/rules.conf'
+alias hbc='$EDITOR ~/.config/hypr/binds.conf'
+alias hac='$EDITOR ~/.config/hypr/auto.conf'
 
-alias sdc='micro ~/.config/sway/config'
-alias sac='micro ~/.config/sway/auto'
-alias sbc='micro ~/.config/sway/binds'
-alias src='micro ~/.config/sway/rules'
+alias sdc='$EDITOR ~/.config/sway/config'
+alias sac='$EDITOR ~/.config/sway/auto'
+alias sbc='$EDITOR ~/.config/sway/binds'
+alias src='$EDITOR ~/.config/sway/rules'
 
-alias kc='micro ~/.config/kitty/kitty.conf'
+alias kdc='$EDITOR ~/.config/kitty/kitty.conf'
 
-alias ldc='micro ~/.config/lf/lfrc'
+alias ndc='$EDITOR ~/.config/nvim/init.lua'
+alias nkc='$EDITOR ~/.config/nvim/lua/keys.lua'
+alias noc='$EDITOR ~/.config/nvim/lua/opt.lua'
 
-alias jdc='micro ~/.config/joshuto/joshuto.toml'
-alias jbc='micro ~/.config/joshuto/keymap.toml'
-alias jic='micro ~/.config/joshuto/icons.toml'
-alias jtc='micro ~/.config/joshuto/theme.toml'
-alias jmc='micro ~/.config/joshuto/mimetype.toml'
+alias ldc='$EDITOR ~/.config/lf/lfrc'
 
-alias rdc='micro ~/.config/ranger/rc.conf'
-alias rrc='micro ~/.config/ranger/rifle.conf'
+alias jdc='$EDITOR ~/.config/joshuto/joshuto.toml'
+alias jbc='$EDITOR ~/.config/joshuto/keymap.toml'
+alias jic='$EDITOR ~/.config/joshuto/icons.toml'
+alias jtc='$EDITOR ~/.config/joshuto/theme.toml'
+alias jmc='$EDITOR ~/.config/joshuto/mimetype.toml'
+
+alias rdc='$EDITOR ~/.config/ranger/rc.conf'
+alias rrc='$EDITOR ~/.config/ranger/rifle.conf'
 
 alias gitc='git clone'
 
@@ -95,7 +112,7 @@ export RANGER_LOAD_DEFAULT_RC=false
 
 export TERM=kitty
 export TERMINAL=kitty
-export EDITOR=micro
+export EDITOR=nvim
 
 export dots=~/.config
 export wall=~/.walls

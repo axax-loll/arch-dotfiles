@@ -63,7 +63,7 @@ format = 'via [󰏗 $version](bold fg:#f5a97f) '
 
 [cmd_duration]
 min_time = 1000
-format = 'took [$duration](blink bold fg:#eed49f)'
+format = 'took [$duration](bold fg:#eed49f)'
 disabled = false
 
 [time]

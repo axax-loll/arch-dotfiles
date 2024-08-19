@@ -11,6 +11,8 @@ user-dirs.locale
 yad.conf
 
 libvirt/
+qutebrowser/
+nvim/
 gnome-boxes/
 chromium/
 Kvantum/

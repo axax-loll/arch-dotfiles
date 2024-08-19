@@ -2,6 +2,7 @@
     "autosu": true,
     "colorscheme": "cat",
     "mkparents": true,
+    "relativeruler": true,
     "scrollbar": true,
     "softwrap": true,
     "status": false,
