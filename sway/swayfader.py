@@ -226,4 +226,3 @@ def change_opacity(win, trans):
 
 if __name__ == "__main__":
     Fader()
-

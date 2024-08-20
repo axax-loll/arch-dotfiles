@@ -19,8 +19,9 @@ alias sys='sudo systemctl'
 alias fuc='fish_update_completions'
 alias x='exit'
 
-alias SEM='set $EDITOR=micro'
-alias SEN='set $EDITOR=nvim'
+alias SEM='set EDITOR micro'
+alias SEN='set EDITOR nvim'
+alias SEH='set EDITOR helix'
 
 alias ls='eza -G --group-directories-first'
 alias ll='eza -1 --group-directories-first'

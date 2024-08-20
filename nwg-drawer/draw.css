@@ -1,11 +1,11 @@
-window {
-    background-color: rgba (36, 47, 79, 0.95);
-    color: #eeeeee
+*window {
+    background-color: rgba (36, 47, 79, 0.7);
+    color: #cad3f5
 }
 
 /* search entry */
 entry {
-    background-color: rgba (0, 0, 0, 0.2)
+    background-color: #b8c0e0
 }
 
 button, image {
@@ -14,7 +14,7 @@ button, image {
 }
 
 button:hover {
-    background-color: rgba (255, 255, 255, 0.1)
+    background-color: rgba (36, 47, 79, 0.95)
 }
 
 /* in case you wanted to give category buttons a different look */
