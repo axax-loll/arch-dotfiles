@@ -10,7 +10,12 @@ user-dirs.dirs
 user-dirs.locale
 yad.conf
 
+blender/
+calcurse/
+ferium/
+gtk-2.0/
 libvirt/
+htop/
 zed/
 Vieb/
 qutebrowser/

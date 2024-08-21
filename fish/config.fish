@@ -54,6 +54,7 @@ alias kdc='$EDITOR ~/.config/kitty/kitty.conf'
 
 alias ndc='$EDITOR ~/.config/nvim/init.lua'
 alias nkc='$EDITOR ~/.config/nvim/lua/keys.lua'
+alias npc='$EDITOR ~/.config/nvim/lua/plugins.lua'
 alias noc='$EDITOR ~/.config/nvim/lua/opt.lua'
 
 alias ldc='$EDITOR ~/.config/lf/lfrc'
