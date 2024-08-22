@@ -1,0 +1,121 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "file",
+        "source": "~/.config/fastfetch/bat.txt",
+        "height": 10,
+        "color": {
+            "1": "black",
+            "2": "yellow",
+            "3": "white",
+        },
+        "padding": {
+            "top": 1,
+            "right": 3,
+            "down": 0,
+            "left": 1,
+        }
+    },
+    "general": {
+        "multithreading": true,
+    },
+    "display": {
+        "separator": ": ",
+        "color": {
+            "keys": "yellow",
+            "separator": "yellow"
+        },
+        "size": {
+            "ndigits": 2,
+            "maxPrefix": "GB",
+        },
+    },
+    "modules": [
+        "break",
+        "break",
+        "break",
+        {
+            "type": "title",
+            "color": {
+                "user": "yellow",
+                "at": "yellow",
+                "host": "yellow"
+            }
+        },
+        {
+            "type": "separator",
+            "string": "=",
+            "length": 12,
+        },
+        {
+            "type": "kernel",
+            "key": "{#1}KRN",
+            "format": "{2}",
+            "title": "red",
+        },
+        {
+            "type": "uptime",
+            "key": "UPT",
+            "format": "{2} hours, {3} mins",
+        },
+        {
+            "type": "packages",
+            "key": "PKG"
+        },
+        {
+            "type": "shell",
+            "key": "SHE",
+            "format": "{6} {4}"
+        },
+        "break",
+        {
+            "type": "wm",
+            "key": "DWM",
+            "format": "{2} / {3}"
+        },
+        {
+            "type": "theme",
+            "format": "{2}",
+            "key": "THM"
+        },
+        {
+            "type": "icons",
+            "format": "{2}",
+            "key": "ICO"
+        },
+        "break",
+        {
+            "type": "editor",
+            "key": "IDE",
+            "format": "{2} {5}"
+        },
+        {
+            "type": "disk",
+            "key": "DSK",
+            "folders": "/",
+            "format": "{10} ({1} / {2})"
+        },
+        {
+            "type": "initsystem",
+            "key": "INI",
+            "format": "{1} {3}"
+        },
+        "break",
+        {
+            "type": "cpu",
+            "key": "CPU",
+            "format": "{1}"
+        },
+        {
+            "type": "gpu",
+            "key": "GPU",
+            "format": "{2}"
+        },
+        {
+            "type": "memory",
+            "key": "MEM",
+            "format": "{} / {}"
+        },
+        "break",
+    ]
+}

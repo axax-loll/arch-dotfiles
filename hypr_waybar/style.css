@@ -1,26 +1,26 @@
 * {
-    font-family: JetBrainsMono Nerd Font;
-    font-weight: bold;
-    font-size: 13px;
+	font-family: JetBrainsMono Nerd Font;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 window#waybar {
-    background-color: #24273a;
-    border-bottom: 4px solid #1e2030;
-    color: #cad3f5;
-    transition-property: background-color;
-    transition-duration: .2s;
+	background-color: #24273a;
+	border-bottom: 4px solid #1e2030;
+	color: #cad3f5;
+	transition-property: background-color;
+	transition-duration: .2s;
 }
 
 button {
-    box-shadow: inset 0 -3px transparent;
-    border: none;
-    border-radius: 6px;
-    border-color: #181926;
+	box-shadow: inset 0 -3px transparent;
+	border: none;
+	border-radius: 6px;
+	border-color: #181926;
 }
 
 button:hover {
-    background: inherit;
+	background: inherit;
 }
 
 #submap {
@@ -28,22 +28,22 @@ button:hover {
 	background: linear-gradient(90deg, rgba(245,189,230,1) 0%, rgba(240,198,198,1) 35%, rgba(244,219,214,1) 80%);
 	animation: gradient 15s ease infinite;
 	color: #24273a;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
-    border-radius: 6px;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
+	border-radius: 6px;
 }
 
 #submap.resize {
 	background: rgb(245,169,127);
 	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(238,212,159,1) 35%);
 	color: #24273a;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
-    border-radius: 6px;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
+	border-radius: 6px;
 }
 
 #submap.resize {
@@ -62,77 +62,77 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #cad3f5;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	padding: 0 5px;
+	background-color: transparent;
+	color: #cad3f5;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #workspaces button:hover {
 	background-color: #b7bdf8;
-    color: #24273a;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	color: #24273a;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #workspaces button.active {
 	background: rgb(198,160,246);
 	background: linear-gradient(90deg, rgba(198,160,246,1) 0%, rgba(245,189,230,1) 45%, rgba(240,198,198,1) 80%);
-    color: #24273a;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	color: #24273a;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #workspaces button.special {
 	background: rgb(125,196,228);
 	background: linear-gradient(90deg, rgba(125,196,228,1) 0%, rgba(145,215,227,1) 50%);
-    color: #24273a;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	color: #24273a;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #workspaces button.empty {
-    background-color: #24273a;
-    color: #5b6078;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	background-color: #24273a;
+	color: #5b6078;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #workspaces button.urgent {
-    background-color: #ee99a0;
-    color: #24273a;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	background-color: #ee99a0;
+	color: #24273a;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #custom-launcher {
 	margin-top: 2px;
 	margin-left: 4px;
-    margin-top: 4;
-    margin-bottom: 4;
+	margin-top: 4;
+	margin-bottom: 4;
 	border-radius: 6px;
 	transition: none;
-    color: #24273a;
+	color: #24273a;
 	background: rgb(237,135,150);
 	background: linear-gradient(90deg, rgba(237,135,150,1) 0%, rgba(238,153,160,1) 50%, rgba(245,169,127,1) 100%);
 }
 
 #mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
+	background-color: #64727D;
+	border-bottom: 3px solid #ffffff;
 }
 
 #custom-cava,
@@ -152,232 +152,232 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #mpd {
-    padding: 0 10px;
-    color: #ffffff;
+	padding: 0 10px;
+	color: #ffffff;
 }
 
 #workspaces {
-    margin: 0 4px;
+	margin: 0 4px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+	margin-left: 0;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+	margin-right: 0;
 }
 
 #clock {
 	background: rgb(138,173,244);
 	background: linear-gradient(90deg, rgba(138,173,244,1) 0%, rgba(183,189,248,1) 60%, rgba(202,211,245,1) 100%);
-    color: #24273a;
-    border-radius: 6px;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	color: #24273a;
+	border-radius: 6px;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #user {
 	background: rgb(139,213,202);
 	background: linear-gradient(90deg, rgba(139,213,202,1) 0%, rgba(145,215,227,1) 50%, rgba(125,196,228,1) 100%);
-    color: #24273a;
-    border-radius: 6px;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	color: #24273a;
+	border-radius: 6px;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #memory {
-    background-color: #f5bde6;
-    color: #24273a;
-    border-radius: 6px;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	background-color: #f5bde6;
+	color: #24273a;
+	border-radius: 6px;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #disk {
-    background-color: #c6a0f6;
-    color: #24273a;
-    border-radius: 6;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	background-color: #c6a0f6;
+	color: #24273a;
+	border-radius: 6;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #window {
-    background-color: #24273a;
-    color: #cad3f5;
-    border-radius: 6px;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	background-color: #24273a;
+	color: #cad3f5;
+	border-radius: 6px;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
+	color: #ffffff;
+	background-color: #26A65B;
 }
 
 @keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #000000;
-    }
+	to {
+	    background-color: #ffffff;
+	    color: #000000;
+	}
 }
 
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: #ffffff;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+	background-color: #f53c3c;
+	color: #ffffff;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 label:focus {
-    background-color: #000000;
+	background-color: #000000;
 }
 
 #pulseaudio {
 	background: rgb(245,169,127);
 	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(238,212,159,1) 50%);
-    color: #24273a;
-    border-radius: 6;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-left: 2;
-    margin-right: 2;
+	color: #24273a;
+	border-radius: 6;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-left: 2;
+	margin-right: 2;
 }
 
 #pulseaudio.muted {
 	background: rgb(245,169,127);
 	background: linear-gradient(90deg, rgba(245,169,127,1) 0%, rgba(245,169,127,1) 50%);
-    color: #24273a;
+	color: #24273a;
 }
 
 #wireplumber {
-    background-color: #fff0f5;
-    color: #000000;
+	background-color: #fff0f5;
+	color: #000000;
 }
 
 #wireplumber.muted {
-    background-color: #f53c3c;
+	background-color: #f53c3c;
 }
 
 #custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
-    min-width: 100px;
+	background-color: #66cc99;
+	color: #2a5c45;
+	min-width: 100px;
 }
 
 #custom-media.custom-spotify {
-    background-color: #66cc99;
+	background-color: #66cc99;
 }
 
 #custom-media.custom-vlc {
-    background-color: #ffa000;
+	background-color: #ffa000;
 }
 
 #temperature {
-    background-color: #f0932b;
+	background-color: #f0932b;
 }
 
 #temperature.critical {
-    background-color: #eb4d4b;
+	background-color: #eb4d4b;
 }
 
 #tray {
-    background-color: #24273a;
-    color: #cad3f5;
-    border-radius: 6;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-right: 4;
-    margin-left: 4;
+	background-color: #24273a;
+	color: #cad3f5;
+	border-radius: 6;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-right: 4;
+	margin-left: 4;
 }
 
 #tray > .passive {
-    -gtk-icon-effect: dim;
+	-gtk-icon-effect: dim;
 }
 
 #tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
+	-gtk-icon-effect: highlight;
+	background-color: #eb4d4b;
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+	background-color: #2d3436;
 }
 
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
+	background-color: #ecf0f1;
+	color: #2d3436;
 }
 
 #mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
+	background-color: #66cc99;
+	color: #2a5c45;
 }
 
 #mpd.disconnected {
-    background-color: #f53c3c;
+	background-color: #f53c3c;
 }
 
 #mpd.stopped {
-    background-color: #90b1b1;
+	background-color: #90b1b1;
 }
 
 #mpd.paused {
-    background-color: #51a37a;
+	background-color: #51a37a;
 }
 
 #language {
 	background: rgb(166,218,149);
 	background: linear-gradient(90deg, rgba(166,218,149,1) 0%, rgba(139,213,202,1) 50%);
-    color: #24273a;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 18px;
-    border-radius: 6px;
-    margin-top: 4;
-    margin-bottom: 4;
-    margin-right: 4;
-    margin-left: 4;
+	color: #24273a;
+	padding: 0 5px;
+	margin: 0 5px;
+	min-width: 18px;
+	border-radius: 6px;
+	margin-top: 4;
+	margin-bottom: 4;
+	margin-right: 4;
+	margin-left: 4;
 }
 
 #keyboard-state {
-    background: #97e1ad;
-    color: #000000;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 18px;
+	background: #97e1ad;
+	color: #000000;
+	padding: 0 0px;
+	margin: 0 5px;
+	min-width: 18px;
 }
 
 #keyboard-state > label {
-    padding: 0 5px;
+	padding: 0 5px;
 }
 
 #keyboard-state > label.locked {
-    background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
 }
 
 #scratchpad {
-    background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.2);
 }
 
 #scratchpad.empty {
@@ -385,10 +385,10 @@ label:focus {
 }
 
 #custom-cava {
-    color: #8FBC8F;
-    border-left: 0px;
-    border-right: 0px;
-    padding-bottom: 8px;
-    font-family: "bargraph";
-    font-size: 22px;
+	color: #8FBC8F;
+	border-left: 0px;
+	border-right: 0px;
+	padding-bottom: 8px;
+	font-family: "bargraph";
+	font-size: 22px;
 }
