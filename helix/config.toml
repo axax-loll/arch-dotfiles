@@ -1,14 +1,14 @@
 theme = "catppuccin_macchiato"
 
 [editor]
-line-number = "relative"
-mouse = true
-cursorline = true
-auto-completion = true
-completion-replace = true
-auto-info = true
-true-color = true
-color-modes = true
+  line-number = "relative"
+  mouse = true
+  cursorline = true
+  auto-completion = true
+  completion-replace = true
+  auto-info = true
+  true-color = true
+  color-modes = true
 
 [editor.indent-guides]
 render = true
@@ -19,9 +19,9 @@ normal = "block"
 select = "underline"
 
 [editor.statusline]
-left = ["mode", "spinner"] 
-center = ["file-name", "read-only-indicator"]
-right = ["position-percentage", "position", "file-type"]
+left = ["mode", "spinner", "file-name", "read-only-indicator"]
+center = []
+right = ["file-type", "position-percentage", "position"]
 separator = "|"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"

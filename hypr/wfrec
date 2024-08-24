@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+wf-recorder --audio=alsa_output.pci-0000_2b_00.1.hdmi-stereo.monitor -g "$(slurp -b '#181926CC' -c '#8bd5caFF' -w '3')" -f $(xdg-user-dir VIDEOS)/$(date +'vid_%d-%m-%y|%H:%M:%S.mp4')

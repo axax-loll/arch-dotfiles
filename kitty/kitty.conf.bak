@@ -1,51 +1,100 @@
+#  :::  .   :::::::::::::::::::::::::::.-:.     ::-.
+#  ;;; .;;,.;;;;;;;;;;;'''';;;;;;;;'''' ';;.   ;;;;'
+#  [[[[[/'  [[[     [[          [[        '[[,[[['  
+# _$$$$,    $$$     $$          $$          c$$"    
+# "888"88o, 888     88,         88,       ,8P"`     
+#  MMM "MMP"MMM     MMM         MMM      mM"        
+
 # ВКЛАДКИ
 tab_bar_min_tabs            2
 tab_bar_edge                button
-tab_bar_style               powerline
-tab_powerline_style         slanted
-tab_title_template          {title}
+tab_bar_style               fade
+tab_powerline_style         angled
+tab_fade                    0 0.5 1
+tab_title_template "{fmt.fg.red}{bell_symbol}{activity_symbol}{fmt.fg.tab}{title}"
+active_tab_title_template "{fmt.fg.red}{bell_symbol}{activity_symbol}{fmt.fg.tab}{title}"
 
 # ВНЕШНИЙ ВИД
-window_margin_width 7
+window_margin_width 8
 confirm_os_window_close 0
 resize_in_steps no
 resize_debounce_time 0
-#background_opacity 0.98
+#background_opacity 1
 #background_tint 0.9
 dynamic_background_opacity true
+cursor_shape block
+cursor_beam_thickness 1.5
+window_margin_width 2
+window_padding_width 4
+window_border_width 0.2pt
+single_window_padding_width 4
+enable_audio_bell no
+enabled_layouts tall:bias=50;full_size=1;mirrored=false
 
-font_family       Cantarell Regular
-bold_font         Cantarell Bold
-italic_font       Cantarell Italic
-bold_italic_font  Cantarell Bold Italic
-font_size         11.0
+font_size  12
 
-kitty_mod ctrl+shift
+kitty_mod alt
 
+# БИНДЫ
+map kitty_mod+enter new_window
+map kitty_mod+q             close_window
+
+map kitty_mod+]  next_window
+map kitty_mod+[  previous_window
+map kitty_mod+shift+]  move_window_forward
+map kitty_mod+shift+[  move_window_backward
+
+map kitty_mod+shift+plus change_font_size all +1.0
+map kitty_mod+shift+minus change_font_size all -1.0
+
+map kitty_mod+a  new_tab
 map kitty_mod+right next_tab
-map kitty_mod+left  previous_tab
-map kitty_mod+w     new_tab
-map kitty_mod+q     close_tab
-map kitty_mod+.     move_tab_forward
-map kitty_mod+,     move_tab_backward
-map kitty_mod+alt+t set_tab_title
+map kitty_mod+left previous_tab
+map kitty_mod+x  next_tab
+map kitty_mod+z  previous_tab
+map kitty_mod+shift+q  close_tab
+map kitty_mod+shift+x  move_tab_forward
+map kitty_mod+shift+z  move_tab_backward
+map kitty_mod+shift+right move_tab_forward
+map kitty_mod+shift+left move_tab_backward
+map kitty_mod+t  set_tab_title
+
+map ctrl+shift+c        copy_to_clipboard
+map ctrl+shift+v        paste_from_clipboard
+map shift+insert        paste_from_selection
 
 map f11             toggle_fullscreen
 map f10             toggle_maximized
 map kitty_mod+u     kitten unicode_input
 map kitty_mod+c     edit_config_file
+map kitty_mod+r     load_config_file
 map kitty_mod+escape kitty_shell window
 
-map kitty_mod+]    set_background_opacity +0.1
-map kitty_mod+[    set_background_opacity -0.1
-map kitty_mod+p    set_background_opacity 1
-map kitty_mod+o    set_background_opacity default
+map kitty_mod+shift+= set_background_opacity +0.1
+map kitty_mod+shift+- set_background_opacity -0.1
+map kitty_mod+p set_background_opacity 1
+map kitty_mod+o set_background_opacity default
 map kitty_mod+delete clear_terminal reset active
 
+map kitty_mod+. layout_action decrease_num_full_size_windows
+map kitty_mod+, layout_action increase_num_full_size_windows
+map kitty_mod+/ layout_action mirror toggle
+map kitty_mod+m layout_action mirror true
+map kitty_mod+n layout_action mirror false
+
+map kitty_mod+left resize_window narrower
+map kitty_mod+right resize_window wider
+map kitty_mod+up resize_window taller
+map kitty_mod+down resize_window shorter 3
+# reset all windows in the tab to default sizes
+map kitty_mod+home resize_window reset
+
 include current-theme.conf
 
 
-# BEGIN_KITTY_THEME
-# Catppuccin-Macchiato
-include current-theme.conf
-# END_KITTY_THEME
+# BEGIN_KITTY_FONTS
+font_family      family="CaskaydiaCove Nerd Font Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
