@@ -52,7 +52,7 @@ alias fig='figlet -kf ~/.config/cosmic.flf -w 90'
 alias ga='git add .'
 alias gl='git pull'
 alias gp='git push'
-alias gc='git commit'
+alias gc='git commit -m addfiles'
 alias gr='git rm -r --cached'
 
 alias mss='sys start fabricd.service'
