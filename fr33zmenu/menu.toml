@@ -1,0 +1,13 @@
+[menus.programs]
+order		= -1
+prompt		= "launch -> "
+
+[menus.programs.entries]
+terminal	= "kitty"
+firefox		= "firedragon"
+vivaldi		= "vivaldi"
+bottles		= "bottles"
+prism		= "prismlauncher"
+obsidian	= "obsidian"
+telegram	= "64gram-desktop"
+torrent		= "qbittorrent"

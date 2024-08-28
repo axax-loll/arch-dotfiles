@@ -1,17 +1,19 @@
 theme = "catppuccin_macchiato"
 
 [editor]
-  line-number = "relative"
-  mouse = true
-  cursorline = true
-  auto-completion = true
-  completion-replace = true
-  auto-info = true
-  true-color = true
-  color-modes = true
+line-number = "relative"
+mouse = true
+cursorline = true
+auto-completion = true
+completion-replace = true
+auto-info = true
+auto-pairs = true
+true-color = true
+color-modes = true
 
 [editor.indent-guides]
 render = true
+character = "|"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -21,7 +23,7 @@ select = "underline"
 [editor.statusline]
 left = ["mode", "spinner", "file-name", "read-only-indicator"]
 center = []
-right = ["file-type", "position-percentage", "position"]
+right = ["file-type", "separator", "spacer", "position-percentage", "position", "separator", "total-line-numbers"]
 separator = "|"
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
@@ -36,5 +38,5 @@ C-S-s = ":w!"
 C-q = ":wq"
 C-S-q = ":wq!"
 C-o = ":o ~/.config/helix/config.toml"
-C-v = ":clipboard-paste-after"
+C-v = ":clipboard-paste-before"
 C-c = ":yank-join"
